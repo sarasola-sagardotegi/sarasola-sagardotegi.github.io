@@ -1,0 +1,11 @@
+<div class="menu" style="display: inline-block;">
+  <header>
+    <h1>{{ include.item.title }}</h1>
+  </header>
+  <ul>
+    {% for plato in include.item.platos %}
+      <li>{{ plato }}</li>
+    {% endfor %}
+  </ul>
+  <p>{{ include.item.precio }}</p>
+</div>

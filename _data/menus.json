@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Menú de sidrería",
+    "platos": [
+      "Tortilla de bacalao",
+      "Bacalao frito con pimientos",
+      "Chuleta de 700 gr. para 2 personas",
+      "Queso, membrillo, nueces, tejas y cigarrillos",
+      "Sidra",
+      "Pan"
+    ],
+    "precio": "30€ / PAX"
+  },
+  {
+  	"title": "Menú a la carta",
+    "platos": [
+      "Tortilla de bacalao",
+      "Bacalao frito con pimientos",
+      "Chuleta de 700 gr. para 2 personas",
+      "Queso, membrillo, nueces, tejas y cigarrillos",
+      "Sidra",
+      "Pan"
+    ],
+    "precio": "Según la carta"
+  }
+]
