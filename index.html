@@ -2,9 +2,7 @@
 layout: default
 ---
 
-<div class="content-wrapper">
-
-<section id="menus">
+<section id="menus" class="clearfix">
   {% assign menus = site.data.menus %}
   {% for menu in menus %}
     {% include menu.html item=menu %}
@@ -15,9 +13,7 @@ layout: default
   
 </section>
 
-<section id="contacto">
+<section id="contacto" class="dark">
   {% include vcard.html %}
   {% include mapa.html %}
 </section>
-
-</div>

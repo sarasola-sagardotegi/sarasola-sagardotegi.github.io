@@ -1,8 +1,8 @@
-<div class="menu" style="display: inline-block;">
+<div class="menu col-xs-12 col-sm-6 text-center">
   <header>
     <h1>{{ include.item.title }}</h1>
   </header>
-  <ul>
+  <ul class="list-unstyled">
     {% for plato in include.item.platos %}
       <li>{{ plato }}</li>
     {% endfor %}
