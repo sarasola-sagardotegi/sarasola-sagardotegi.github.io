@@ -1,0 +1,15 @@
+$negro: #2b2b2a;
+$verde: #7ea438;
+
+.site-header {
+  h1 {
+    background-color: rgba($negro, 0.5);
+  }
+  a {
+    color: $verde;
+  }
+}
+
+#slider {
+  background-color: rgba($negro, 0.8);
+}
