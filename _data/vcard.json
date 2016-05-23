@@ -1,0 +1,29 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Restaurant",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "ASTIGARRAGA",
+    "addressRegion": "GUI",
+    "postalCode": "20115",
+    "streetAddress": "Oiarbide Bidea"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "43.268734",
+    "longitude": "-1.945260"
+  },
+  "name": "Sarasola Sagardotegi",
+  "openingHours": [
+    "Mo-Sa 11:00-14:30",
+    "Mo-Th 17:00-21:30",
+    "Fr-Sa 17:00-22:00"
+  ],
+  "servesCuisine": [
+    "Menú de sidrería",
+    "Menú a la carta"
+  ],
+  "telephone": "+34943555746",
+  "url": "http://www.sarasolasagardotegi.com",
+  "email": "info@sarasolasagardotegi.com"
+}
