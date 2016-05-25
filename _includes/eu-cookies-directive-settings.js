@@ -17,8 +17,8 @@ $(document).ready(function(){
     position : 'bottom',
     //scriptWrapper: cookieScripts, 
     cookieScripts: 'Google Analytics', 
-    backgroundColor: '#52B54A',
-    linkColor: '#ffffff'
+    backgroundColor: '#7ea438',
+    linkColor: '#2b2b2a'
   });
 });
 </script>

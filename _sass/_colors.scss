@@ -3,7 +3,7 @@ $verde: #7ea438;
 
 .site-header {
   h1 {
-    background-color: rgba($negro, 0.5);
+    background-color: rgba($negro, 0.3);
   }
   a {
     color: $verde;
@@ -12,5 +12,11 @@ $verde: #7ea438;
 
 section.dark {
 	color: #ddd;
-	background-color: $negro;
+	background-color: rgba($negro, 0.8);
+}
+#instalaciones {
+	color: #ddd;
+  div {
+    background-color: rgba($negro, 0.8);
+  }
 }
