@@ -3,14 +3,16 @@ layout: default
 ---
 
 <section id="menus" class="clearfix">
+  <div class="wrapper col-sm-6 col-sm-push-6">
   {% assign menus = site.data.menus %}
   {% for menu in menus %}
     {% include menu.html item=menu %}
   {% endfor %}
+  </div>
 </section>
 
 <section id="instalaciones" class="text-center clearfix">
-  <div class="col-sm-6">
+  <div class="wrapper col-sm-6">
   <header>
   	<h1>Intalaciones</h1>
   </header>
@@ -19,6 +21,10 @@ layout: default
 </section>
 
 <section id="contacto" class="dark">
+  <div class="wrapper col-sm-6">
   {% include vcard.html %}
+  </div>
+  <div class="wrapper col-sm-6">
   {% include mapa.html %}
+  </div>
 </section>

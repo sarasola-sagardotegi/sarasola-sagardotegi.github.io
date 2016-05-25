@@ -1,5 +1,5 @@
-<header class="site-header">
-  <h1 class="text-hide text-center">
+<header class="site-header{% if page.url == '/' %} front{% endif %}">
+  <h1 class="text-hide {% if page.url == '/' %} text-center{% endif %}">
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
     <img src="/assets/images/logo.png" alt="{{ site.title }}" class="img-responsive center-block">
   </h1>

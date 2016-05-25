@@ -1,27 +1,41 @@
 .site-header {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	width: 100%;
-	height: 100%;
-	background: url(/assets/images/steak.jpg) no-repeat center fixed;
-	background-size: cover;
-
-	h1:before {
-	  content: '';
-	  display: inline-block;
-	  height: 100%;
-	  vertical-align: middle;
-  }
+	height: auto;
   h1 {
-    height: 100%;
     margin-top: 0.25em;
   }
-	img {
-	  display: inline-block;
-	  vertical-align: middle;
-	  margin-left: auto;
-	  margin-right: auto;
-	}
+  img {
+    display: inline-block;
+    height: 150px;
+  }
+  &.front {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/assets/images/steak.jpg) no-repeat center fixed;
+    background-size: cover;
+
+    h1:before {
+      content: '';
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle;
+    }
+    h1 {
+      height: 100%;
+      margin-top: 0.25em;
+    }
+    img {
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: auto;
+      margin-right: auto;
+      height: auto;
+    }
+  }
 }
 
 .content-wrapper {
@@ -31,15 +45,22 @@
 }
 
 section {
-	padding: 8.75rem 15px;
 	margin: 0 -15px;
 }
 
+
+#menus,
 #instalaciones {
-	background: url(/assets/images/barricas.jpg) no-repeat center fixed;
-	background-size: cover;
-  div {
-    margin: -8.75rem -15px;
+  div.wrapper {
     padding: 8.75rem 2rem;
+  }
+}
+#contacto {
+  div.wrapper {
+    padding-left: 0;
+    padding-right: 0;
+    iframe {
+      width: 100%;
+    }
   }
 }
