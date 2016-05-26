@@ -59,6 +59,9 @@ section {
   div.wrapper {
     padding-left: 0;
     padding-right: 0;
+    .vcard {
+      padding: 2rem;
+    }
     iframe {
       width: 100%;
     }
