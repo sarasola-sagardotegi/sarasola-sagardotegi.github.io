@@ -61,6 +61,15 @@ section {
     padding-right: 0;
     .vcard {
       padding: 2rem;
+      img[itemprop=logo] {
+        display: block;
+        margin: 0 auto;
+      }
+      .address,
+      .horario {
+        display: inline-block;
+        width: 40%;
+      }
     }
     iframe {
       width: 100%;

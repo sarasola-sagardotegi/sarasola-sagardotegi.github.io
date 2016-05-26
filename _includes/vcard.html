@@ -1,35 +1,54 @@
 {% assign vcard = site.data.vcard %}
-<div itemscope itemtype="http://schma.org/Restaurant" class="vcard">
-  <span itemprop="name" class="h1">{{ vcard.name}}</span>
-  <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-    <span itemprop="streetAddress">{{ vcard.address.streetAddress }}</span>
-    <br>
-    <span itemprop="postalCode">{{ vcard.address.postalCode }}</span> - <span itemprop="addressLocality">{{ vcard.address.addressLocality }}</span>
-    <br>
-    <div itemprop="geo" itemscope itemtype="http://schema.org/GeoCoordinates" class="text-hide">
-      <label>Geo:</label>
-        <br>
-        Latitud: {{ vcard.geo.latitude }}
-        <br>
-        Longitude: {{ vcard.geo.longitude }}
-        <meta itemprop="latitude" content="{{ vcard.geo.latitude }}" />
-        <meta itemprop="longitude" content="{{ vcard.geo.longitude }}" />
+<article itemscope itemtype="http://schma.org/Restaurant" class="vcard">
+  <header>
+    <h1 itemprop="name">{{ vcard.name}}</h1>
+    <img itemprop="logo" src="/assets/images/logo.png" alt="{{ vcard.name }} logo" width="150" height="100">
+  </header>
+
+
+  <div class="address">
+    
+    <h4>Dirección:</h4>
+    <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+      <span itemprop="streetAddress">{{ vcard.address.streetAddress }}</span>
+      <br>
+      <span itemprop="postalCode">{{ vcard.address.postalCode }}</span> - <span itemprop="addressLocality">{{ vcard.address.addressLocality }}</span>
+      <div itemprop="geo" itemscope itemtype="http://schema.org/GeoCoordinates" class="text-hide">
+        <label>Geo:</label>
+          <br>
+          Latitud: {{ vcard.geo.latitude }}
+          <br>
+          Longitude: {{ vcard.geo.longitude }}
+          <meta itemprop="latitude" content="{{ vcard.geo.latitude }}" />
+          <meta itemprop="longitude" content="{{ vcard.geo.longitude }}" />
+      </div>
     </div>
+
+    <label>Teléfono:</label>
+    <span itemprop="telephone">{{ vcard.telephone }}</span>
+
   </div>
-  <label>Teléfono:</label>
-  <span itemprop="telephone">{{ vcard.telephone }}</span>
-  <br>
-  <label>Web:</label>
-  <a itemprop="url" href="{{ vcard.url }}">{{ vcard.url }}</a>
-  <br>
-  <label>Horario:</label><br>
-  <meta itemprop="openingHours" content="Mo-Sa 11:00-14:30">Mon-Sat 11am - 2:30pm<br>
-  <meta itemprop="openingHours" content="Mo-Th 17:00-21:30">Mon-Thu 5pm - 9:30pm<br>
-  <meta itemprop="openingHours" content="Fr-Sa 17:00-22:00">Fri-Sat 5pm - 10:00pm<br>
-  <label>Menús:</label><br>
-  {% for serve in vcard.servesCuisine %}
-  <span itemprop="servesCuisine">{{ serve }}</span>
-  {% if forloop.last != true %}, {% endif %}
-  {% endfor %}
-  <br>
-</div>
+
+  <div class="horario">
+    <h4>Horario:</h4>
+    <meta itemprop="openingHours" content="Mo-Sa 11:00-14:30">Mon-Sat 11am - 2:30pm<br>
+    <meta itemprop="openingHours" content="Mo-Th 17:00-21:30">Mon-Thu 5pm - 9:30pm<br>
+    <meta itemprop="openingHours" content="Fr-Sa 17:00-22:00">Fri-Sat 5pm - 10:00pm
+  </div>
+
+  <div class="text-hide">
+    <label>Menús:</label><br>
+    {% for serve in vcard.servesCuisine %}
+    <span itemprop="servesCuisine">{{ serve }}</span>
+    {% if forloop.last != true %}, {% endif %}
+    {% endfor %}
+  </div>
+
+  <div class="text-hide">
+    <label>Web:</label>
+    <a itemprop="url" href="{{ vcard.url }}">{{ vcard.url }}</a>
+    <label>Email:</label>
+    <a itemprop="email" href="mailto:{{ vcard.email }}">{{ vcard.email }}</a>
+  </div>
+
+</article>
