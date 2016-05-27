@@ -32,6 +32,10 @@
       margin-left: auto;
       margin-right: auto;
       height: auto;
+      @media (max-width: 767px) {
+        max-height: 320px;
+      }
+
     }
   }
 }
@@ -45,7 +49,6 @@
 section {
 	margin: 0 -15px;
 }
-
 
 #menus,
 #instalaciones {
@@ -71,4 +74,8 @@ section {
       width: 100%;
     }
   }
+}
+
+.menu {
+  margin-bottom: 4rem;
 }
