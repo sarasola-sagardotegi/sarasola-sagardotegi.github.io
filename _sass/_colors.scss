@@ -11,6 +11,10 @@ body {
   a {
     color: $verde;
   }
+  &.front {
+    background: url(/assets/images/steak.jpg) no-repeat center fixed;
+    background-size: cover;
+  }
 }
 
 section.dark {
