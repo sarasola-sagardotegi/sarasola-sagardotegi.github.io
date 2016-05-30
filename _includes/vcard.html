@@ -6,7 +6,7 @@
   </header>
 
 
-  <div class="address col-sm-3 col-sm-offset-3">
+  <div class="address col-md-5 col-md-offset-1">
     
     <h4 class="text-hide">Dirección:</h4>
     <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
@@ -24,12 +24,12 @@
       </div>
     </div>
 
-    <label>Teléfono:</label>
-    <span itemprop="telephone">{{ vcard.telephone }}</span>
+    <label class="text-hide">Teléfono:</label>
+    <i class="fa fa-phone" aria-hidden="true"> </i><span itemprop="telephone"> {{ vcard.telephone }}</span>
 
   </div>
 
-  <div class="horario col-sm-3">
+  <div class="horario col-md-5">
     <h4 class="text-hide">Horario:</h4>
     <meta itemprop="openingHours" content="Mo-Sa 11:00-14:30">Mon-Sat 11am - 2:30pm<br>
     <meta itemprop="openingHours" content="Mo-Th 17:00-21:30">Mon-Thu 5pm - 9:30pm<br>
@@ -44,11 +44,10 @@
     {% endfor %}
   </div>
 
-  <div class="text-hide">
-    <label>Web:</label>
+  <div class="text-center">
+    <label class="text-hide">Web:</label>
     <a itemprop="url" href="{{ vcard.url }}">{{ vcard.url }}</a>
-    <label>Email:</label>
+    <label class="text-hide">Email:</label>
     <a itemprop="email" href="mailto:{{ vcard.email }}">{{ vcard.email }}</a>
   </div>
-
 </article>
