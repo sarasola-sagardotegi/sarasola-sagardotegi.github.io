@@ -9,6 +9,9 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://sarasola-sagardotegi.github.io" # the base hostname & protocol for your site
 logo: "/assets/images/logo.png"
 
+lang: es
+languages: [es,eu,en,fr]
+
 # Build settings
 markdown: kramdown
 

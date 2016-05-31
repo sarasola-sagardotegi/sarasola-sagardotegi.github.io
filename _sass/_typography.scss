@@ -13,6 +13,30 @@ h1,h2,h3,h4,h5,h6 {
   text-transform: uppercase;
 }
 
+.site-header {
+  h1 {
+    span {
+      font-size: 1.85rem;
+      @media (min-width: 480px) {
+        font-size: 3rem;
+      }
+    }
+  }
+}
+
+#language-switcher {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+}
+
+.cta-reservar {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  a {
+  }
+}
+
 .vcard {
   font-family: "Josefin Sans", sans;
   h1 {

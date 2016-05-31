@@ -1,0 +1,43 @@
+<p>Todos los campos son obligatorios.<p>
+<form enctype="multipart/form-data" action="https://paneles.gestiondecuenta.com/comprobar-formulario/" method="POST" id ="formGenGdc" onsubmit="return ValidarCaptcha();">
+  <input type="text" name="nombre" placeholder="Nombre y apellidos" required />
+  <input type="email" name="email" placeholder="Cuenta de correo" required  />
+  <input type="text" name="telefono" placeholder="Teléfono" required  />
+  <input type="number" name="comensales" placeholder="Número de comensales"  min="1", max="" step="" required />
+  <input type="datetime" name="fecha" placeholder="Fecha y hora" required  />
+  <textarea name="mensaje" rows="8" cols="50" placeholder="Mensaje" required></textarea>
+  <hr>
+
+  <input type="hidden" value="" id="verificacionOculto" name="verificacionOculto"/>
+  <div id="muestraVerificacion"></div>
+  <input type="text" id="entradaVerificacion" name="entradaVerificacion" />
+
+  <input type="hidden" name="redirigir" class="" value="http://www.sarasolasagardotegi.com/gracias.html" />
+  <input type="hidden" name="recipe" class="" value="sarasolasagardotegi@sarasolasagardotegi.com" />
+  <input type="hidden" name="asunto" class="" value="Solicitud de reserva desde sarasolasagardotegi.com" />
+  <input type="hidden" name="required" class="" value="nombre;email;telefono;comensales;fecha" />
+  <input type="hidden" name="dominio" class="" value="sarasolasagardotegi.com" />
+  <input type="hidden" name="idioma" class="" value="es" />
+  <input type="submit" name="enviar" class="" value="Enviar" />
+</form>
+
+<script type="text/javascript">
+  var a = Math.ceil(Math.random() * 10);
+  var b = Math.ceil(Math.random() * 10);
+  var c = a + b;
+  function GenerarCaptcha(){
+    var hidden = document.getElementById("verificacionOculto");
+    var inputField = document.getElementById("entradaVerificacion");
+    var muestra = document.getElementById("muestraVerificacion");
+    muestra.innerHTML = a + " + " + b + " = ";
+    hidden.value = c ;
+  }
+  function ValidarCaptcha(){
+    var inputField = document.getElementById("entradaVerificacion");
+    if (inputField.value == c) return true;
+    else{inputField.style.color="red"; return false;}
+  }
+  GenerarCaptcha();
+</script>
+
+<p class="text-danger">Su reserva no será válida hasta que nuestro equipo la confirme por email o teléfono en un plazo máximo de 3 días.</p>

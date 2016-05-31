@@ -1,6 +1,29 @@
-<header class="site-header{% if page.url == '/' %} front{% endif %}">
-  <h1 class="text-hide {% if page.url == '/' %} text-center{% endif %}">
+{% capture lang %}{{ page.lang | default: site.lang }}/{% endcapture %}
+{% assign url = page.url | remove: lang %}
+
+{% if url == '/' %}
+<header class="site-header front">
+  <h1 class="text-hide text-center">
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-    <img src="/assets/images/logo.png" alt="{{ site.title }}" class="img-responsive center-block">
+    <img src="/assets/images/logo.png" alt="{{ site.title }}" class="img-responsive">
   </h1>
 </header>
+<div class="well cta-reservar">
+  Llama al <a tel="{{ site.data.vcard.telephone }}"><span itemprop="telephone"> {{ site.data.vcard.telephone }}</span></a>
+  <br>
+  o <a type="button" class="btn btn-default btn-lg" role="button" href="/reservas">mándanos un mail</a>
+  <br>
+¡Reserva ya!
+</div>
+
+{% else %}
+
+<header class="site-header">
+  <h1 class="text-center">
+    <a href="{{ site.baseurl }}/">
+      <img src="/assets/images/logo.png" alt="{{ site.title }}" class="img-responsive center-block pull-left">
+    </a>
+    <span>{{ page.title }}</span>
+  </h1>
+</header>
+{% endif %}

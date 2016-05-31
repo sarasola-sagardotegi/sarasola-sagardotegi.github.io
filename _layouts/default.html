@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ page.lang | default: site.lang }}">
 
   {% include head.html %}
 
-  <body>
+  {% capture lang %}{{ page.lang | default: site.lang }}/{% endcapture %}
+  {% assign url = page.url | remove: lang %}
+  <body {% if url == '/' %}class="front"{% endif %}>
 
     {% include header.html %}
+    {% include language-switcher.html %}
 
     <div class="content-wrapper">
       <div class="container-fluid">

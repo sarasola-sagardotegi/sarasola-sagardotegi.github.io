@@ -2,11 +2,17 @@ $negro: #2b2b2a;
 $verde: #7ea438;
 
 body {
-  background-color: $negro;
+  background-color: white;
+  &.front {
+    background-color: $negro;
+  }
 }
 .site-header {
   h1 {
-    background-color: rgba(#000, 0.1);
+    background-color: rgba($negro, 1);
+    span {
+      color: white;
+    }
   }
   a {
     color: $verde;
@@ -14,6 +20,29 @@ body {
   &.front {
     background: url(/assets/images/steak.jpg) no-repeat center fixed;
     background-size: cover;
+    h1 {
+      background-color: rgba($negro, 0.3);
+    }
+  }
+}
+
+#language-switcher {
+  background-color: rgba($negro, 0.5);
+  li {
+    a {
+      color: $verde;
+    }
+    &.active a {
+      color: #ddd;
+    }
+  }
+}
+
+.cta-reservar {
+	background-color: rgba($verde, 0.8);
+  border: none;
+  a {
+    color: $negro;
   }
 }
 

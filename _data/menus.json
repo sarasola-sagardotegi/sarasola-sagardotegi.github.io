@@ -9,10 +9,50 @@
       "Sidra",
       "Pan"
     ],
-    "precio": "30€ / PAX"
+    "precio": "30€ / PAX",
+    "lang":"es"
   },
   {
-  	"title": "Menú a la carta",
+    "title": "Sagardotegi menu",
+    "platos": [
+      "Tortilla de bacalao",
+      "Bacalao frito con pimientos",
+      "Txuleta de 700 gr. para 2 personas",
+      "Gatza, membrillo, nueces, tejas y cigarrillos",
+      "Sagardoa",
+      "Ogia"
+    ],
+    "precio": "30€ / PAX",
+    "lang":"eu"
+  },
+  {
+    "title": "Sagardotegi menu",
+    "platos": [
+      "Tortilla de bacalao",
+      "Bacalao frito con pimientos",
+      "Txuleta de 700 gr. para 2 personas",
+      "Gatza, membrillo, nueces, tejas y cigarrillos",
+      "Sagardoa",
+      "Ogia"
+    ],
+    "precio": "30€ / PAX",
+    "lang":"en"
+  },
+  {
+    "title": "Sagardotegi menu",
+    "platos": [
+      "Tortilla de bacalao",
+      "Bacalao frito con pimientos",
+      "Txuleta de 700 gr. para 2 personas",
+      "Gatza, membrillo, nueces, tejas y cigarrillos",
+      "Sagardoa",
+      "Ogia"
+    ],
+    "precio": "30€ / PAX",
+    "lang":"fr"
+  },
+  {
+    "title": "Menú a la carta",
     "platos": [
       "Tortilla de bacalao",
       "Bacalao frito con pimientos",
@@ -21,6 +61,7 @@
       "Sidra",
       "Pan"
     ],
-    "precio": "Según la carta"
+    "precio": "Según la carta",
+    "lang":"es"
   }
 ]

@@ -1,0 +1,8 @@
+{% assign translations = site.pages | where: "tref", page.tref | sort: 'lang' %}
+<nav id="language-switcher">
+  <ul class="list-unstyled list-inline">
+    {% for t in translations %}
+    <li{% if t.lang == page.lang %} class="active"{% endif %}><a href="{{ t.url }}">{{ t.lang }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>
