@@ -84,10 +84,6 @@ body:not(.front) .content-wrapper {
   top: 160px;
 }
 
-section {
-	margin: 0 -15px;
-}
-
 #menus,
 #instalaciones {
   div.wrapper {
@@ -98,6 +94,7 @@ section {
   div.wrapper {
     padding-left: 0;
     padding-right: 0;
+    height: 450px;
     .vcard {
       padding: 2rem;
       img[itemprop=logo] {
@@ -116,4 +113,15 @@ section {
 
 .menu {
   margin-bottom: 4rem;
+}
+
+.site-footer {
+  padding: 1rem;
+}
+
+// Formulario de contacto
+#formGenGdc
+input {
+  display: block;
+  margin-bottom: 1rem;
 }

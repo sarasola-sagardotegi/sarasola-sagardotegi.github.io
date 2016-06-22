@@ -3,65 +3,35 @@
     "title": "Menú de sidrería",
     "platos": [
       "Tortilla de bacalao",
-      "Bacalao frito con pimientos",
-      "Txuleta de 700 gr. para 2 personas",
-      "Queso, membrillo, nueces, tejas y cigarrillos",
-      "Sidra",
-      "Pan"
+      "Bacalao frito",
+      "Txuleta GOYA",
+      "Queso y membrillo",
+      "Sidra"
     ],
     "precio": "30€ / PAX",
     "lang":"es"
   },
   {
-    "title": "Sagardotegi menu",
+    "title": "Carta",
     "platos": [
-      "Tortilla de bacalao",
-      "Bacalao frito con pimientos",
-      "Txuleta de 700 gr. para 2 personas",
-      "Gatza, membrillo, nueces, tejas y cigarrillos",
-      "Sagardoa",
-      "Ogia"
+      "Ensalada de pimientos y bonito 12€",
+      "Ensalada de txipirones 14€",
+      "Tortilla de bacalao 8€",
+      "Bacalao frito 12€",
+      "Bacalao salsa verde 14€",
+      "Rape al horno S.P.M.",
+      "Cola de merluza S.P.M.",
+      "Txuleta 32€/KG"
     ],
-    "precio": "30€ / PAX",
-    "lang":"eu"
-  },
-  {
-    "title": "Sagardotegi menu",
-    "platos": [
-      "Tortilla de bacalao",
-      "Bacalao frito con pimientos",
-      "Txuleta de 700 gr. para 2 personas",
-      "Gatza, membrillo, nueces, tejas y cigarrillos",
-      "Sagardoa",
-      "Ogia"
-    ],
-    "precio": "30€ / PAX",
-    "lang":"en"
-  },
-  {
-    "title": "Sagardotegi menu",
-    "platos": [
-      "Tortilla de bacalao",
-      "Bacalao frito con pimientos",
-      "Txuleta de 700 gr. para 2 personas",
-      "Gatza, membrillo, nueces, tejas y cigarrillos",
-      "Sagardoa",
-      "Ogia"
-    ],
-    "precio": "30€ / PAX",
-    "lang":"fr"
-  },
-  {
-    "title": "Menú a la carta",
-    "platos": [
-      "Tortilla de bacalao",
-      "Bacalao frito con pimientos",
-      "Chuleta de 700 gr. para 2 personas",
-      "Queso, membrillo, nueces, tejas y cigarrillos",
-      "Sidra",
-      "Pan"
-    ],
-    "precio": "Según la carta",
     "lang":"es"
-  }
+  },
+  {
+    "title": "Postre",
+    "platos": [
+      "Queso, membrillo 6€",
+      "Tarta de queso 5€",
+      "Pudding de manzana 5€"
+     ],
+     "lang": "es"
+  },
 ]

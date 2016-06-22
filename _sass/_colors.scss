@@ -74,3 +74,11 @@ section.dark {
     }
   }
 }
+
+.site-footer {
+  color:#ddd;
+  background-color: rgba($verde, 1);
+  a {
+    color: $negro;
+  }
+}
