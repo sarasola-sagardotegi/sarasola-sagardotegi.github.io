@@ -6,6 +6,13 @@ body {
   &.front {
     background-color: $negro;
   }
+  a,
+  a:hover,
+  a:visited,
+  a:active,
+  a:focus {
+    color: $verde;
+  }
 }
 .site-header {
   h1 {
@@ -18,7 +25,7 @@ body {
     color: $verde;
   }
   &.front {
-    background: url(/assets/images/steak.jpg) no-repeat center fixed;
+    background: url(/assets/images/steak2-web.jpg) no-repeat center fixed;
     background-size: cover;
     h1 {
       background-color: rgba($negro, 0.3);
@@ -39,7 +46,7 @@ body {
 }
 
 .cta-reservar {
-	background-color: rgba($verde, 0.8);
+	background-color: rgba($verde, 1);
   border: none;
   a {
     color: $negro;
@@ -77,8 +84,8 @@ section.dark {
 
 .site-footer {
   color:#ddd;
-  background-color: rgba($verde, 1);
+  background-color: rgba($negro, 1);
   a {
-    color: $negro;
+    color: $verde;
   }
 }

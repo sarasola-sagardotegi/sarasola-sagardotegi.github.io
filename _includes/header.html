@@ -9,11 +9,11 @@
   </h1>
 </header>
 <div class="well cta-reservar">
-  Llama al <a tel="{{ site.data.vcard.telephone }}"><span itemprop="telephone"> {{ site.data.vcard.telephone }}</span></a>
+  <i class="fa fa-phone">&nbsp;</i>{{ site.data.textos[page.lang].llamar }} <a tel="{{ site.data.vcard.telephone }}"><span itemprop="telephone"> {{ site.data.vcard.telephone }}</span></a>
   <br>
-  o <a type="button" class="btn btn-default btn-lg" role="button" href="/reservas">mándanos un mail</a>
+  {{ site.data.textos[page.lang].o }} <a type="button" class="btn btn-default btn-lg" role="button" href="/reservas">{{ site.data.textos[page.lang].mandar-mail }}</a>
   <br>
-¡Reserva ya!
+  {{ site.data.textos[page.lang].reserva-ya }}
 </div>
 
 {% else %}
