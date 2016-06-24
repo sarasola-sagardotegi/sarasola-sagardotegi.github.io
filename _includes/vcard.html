@@ -1,12 +1,12 @@
 {% assign vcard = site.data.vcard %}
 <article itemscope itemtype="http://schma.org/Restaurant" class="vcard">
-  <header>
+  <header class="text-center">
     <h1 itemprop="name">{{ vcard.name}}</h1>
-    <img itemprop="logo" src="/assets/images/logo.png" alt="{{ vcard.name }} logo" width="150" height="100">
+    <img itemprop="logo" src="/assets/images/logo-dark.png" alt="{{ vcard.name }} logo" width="150" height="100">
   </header>
 
 
-  <div class="address col-md-5 col-md-offset-1">
+  <div class="address">
     
     <h4 class="text-hide">Dirección:</h4>
     <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
@@ -29,7 +29,7 @@
 
   </div>
 
-  <div class="horario col-md-5">
+  <div class="horario">
     <h4 class="text-hide">Horario:</h4>
     <meta itemprop="openingHours" content="Mo-Sa 11:00-14:30">Mon-Sat 11am - 2:30pm<br>
     <meta itemprop="openingHours" content="Mo-Th 17:00-21:30">Mon-Thu 5pm - 9:30pm<br>

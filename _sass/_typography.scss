@@ -34,6 +34,10 @@ h1,h2,h3,h4,h5,h6 {
   font-size: 1rem;
   text-align: center;
   a {
+    text-transform: capitalize;
+  }
+  .lead {
+    font-weight: bold;
   }
 }
 
@@ -43,7 +47,7 @@ h1,h2,h3,h4,h5,h6 {
     text-align: center;
   }
   div {
-    font-size: 0.90rem;
+    //font-size: 0.90rem;
   }
 }
 

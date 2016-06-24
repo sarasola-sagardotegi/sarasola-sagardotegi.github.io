@@ -11,9 +11,10 @@
 <div class="well cta-reservar">
   <i class="fa fa-phone">&nbsp;</i>{{ site.data.textos[page.lang].llamar }} <a tel="{{ site.data.vcard.telephone }}"><span itemprop="telephone"> {{ site.data.vcard.telephone }}</span></a>
   <br>
-  {{ site.data.textos[page.lang].o }} <a type="button" class="btn btn-default btn-lg" role="button" href="/reservas">{{ site.data.textos[page.lang].mandar-mail }}</a>
+  {{ site.data.textos[page.lang].o }}<br>
+  <a type="button" class="btn btn-default btn-lg" role="button" href="/reservas">{{ site.data.textos[page.lang].mandar-mail }}</a>
   <br>
-  {{ site.data.textos[page.lang].reserva-ya }}
+  <p class="lead">{{ site.data.textos[page.lang].reserva-ya }}</p>
 </div>
 
 {% else %}

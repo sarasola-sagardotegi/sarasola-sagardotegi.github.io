@@ -48,14 +48,25 @@ body {
 .cta-reservar {
 	background-color: rgba($verde, 1);
   border: none;
-  a {
+  a,
+  a:hover,
+  a:active,
+  a:visited,
+  a:focus {
     color: $negro;
+  }
+  .lead {
+    color: white;
   }
 }
 
 section.dark {
 	color: #ddd;
 	background-color: rgba($negro, 0.8);
+}
+section.black {
+	color: #ddd;
+	background-color: rgba($negro, 1);
 }
 
 #menus {

@@ -68,9 +68,12 @@
   position: absolute;
   left: 50%;
   bottom: 2rem;
-  width: 200px;
+  //width: 200px;
   margin-left: -100px;
   z-index: 110;
+  .lead {
+    margin-top: 1rem;
+  }
 }
 
 body.front .content-wrapper {
@@ -103,6 +106,8 @@ body:not(.front) .content-wrapper {
       }
       .address,
       .horario {
+        width: 50%;
+        float: left;
       }
     }
     iframe {
