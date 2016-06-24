@@ -34,4 +34,109 @@
      ],
      "lang": "es"
   },
+  {
+    "title": "Menú de sidrería",
+    "platos": [
+      "Tortilla de bacalao",
+      "Bacalao frito",
+      "Txuleta GOYA",
+      "Queso y membrillo",
+      "Sidra"
+    ],
+    "precio": "30€ / PAX",
+    "lang":"eu"
+  },
+  {
+    "title": "Carta",
+    "platos": [
+      "Ensalada de pimientos y bonito 12€",
+      "Ensalada de txipirones 14€",
+      "Tortilla de bacalao 8€",
+      "Bacalao frito 12€",
+      "Bacalao salsa verde 14€",
+      "Rape al horno S.P.M.",
+      "Cola de merluza S.P.M.",
+      "Txuleta 32€/KG"
+    ],
+    "lang":"eu"
+  },
+  {
+    "title": "Postre",
+    "platos": [
+      "Queso, membrillo 6€",
+      "Tarta de queso 5€",
+      "Pudding de manzana 5€"
+     ],
+     "lang": "eu"
+  },
+  {
+    "title": "Menú de sidrería",
+    "platos": [
+      "Tortilla de bacalao",
+      "Bacalao frito",
+      "Txuleta GOYA",
+      "Queso y membrillo",
+      "Sidra"
+    ],
+    "precio": "30€ / PAX",
+    "lang":"en"
+  },
+  {
+    "title": "Carta",
+    "platos": [
+      "Ensalada de pimientos y bonito 12€",
+      "Ensalada de txipirones 14€",
+      "Tortilla de bacalao 8€",
+      "Bacalao frito 12€",
+      "Bacalao salsa verde 14€",
+      "Rape al horno S.P.M.",
+      "Cola de merluza S.P.M.",
+      "Txuleta 32€/KG"
+    ],
+    "lang":"en"
+  },
+  {
+    "title": "Postre",
+    "platos": [
+      "Queso, membrillo 6€",
+      "Tarta de queso 5€",
+      "Pudding de manzana 5€"
+     ],
+     "lang": "en"
+  },
+  {
+    "title": "Menú de sidrería",
+    "platos": [
+      "Tortilla de bacalao",
+      "Bacalao frito",
+      "Txuleta GOYA",
+      "Queso y membrillo",
+      "Sidra"
+    ],
+    "precio": "30€ / PAX",
+    "lang":"fr"
+  },
+  {
+    "title": "Carta",
+    "platos": [
+      "Ensalada de pimientos y bonito 12€",
+      "Ensalada de txipirones 14€",
+      "Tortilla de bacalao 8€",
+      "Bacalao frito 12€",
+      "Bacalao salsa verde 14€",
+      "Rape al horno S.P.M.",
+      "Cola de merluza S.P.M.",
+      "Txuleta 32€/KG"
+    ],
+    "lang":"fr"
+  },
+  {
+    "title": "Postre",
+    "platos": [
+      "Queso, membrillo 6€",
+      "Tarta de queso 5€",
+      "Pudding de manzana 5€"
+     ],
+     "lang": "fr"
+  }
 ]
