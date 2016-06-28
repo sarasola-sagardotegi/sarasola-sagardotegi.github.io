@@ -96,22 +96,22 @@
     "lang":"en"
   },
   {
-    "title": "Postre",
+    "title": "Desserts",
     "platos": [
-      "Queso, membrillo 6€",
-      "Tarta de queso 5€",
-      "Pudding de manzana 5€"
+      "Cheese, quince 6€",
+      "Cheesecake 5€",
+      "Apple pudding 5€"
      ],
      "lang": "en"
   },
   {
-    "title": "Menú de sidrería",
+    "title": "Menu Cidreire",
     "platos": [
-      "Tortilla de bacalao",
-      "Bacalao frito",
+      "Omelette de moure",
+      "Cabillaud frit",
       "Txuleta GOYA",
-      "Queso y membrillo",
-      "Sidra"
+      "Fromage et coings",
+      "Cidre"
     ],
     "precio": "30€ / PAX",
     "lang":"fr"
@@ -119,23 +119,23 @@
   {
     "title": "Carta",
     "platos": [
-      "Ensalada de pimientos y bonito 12€",
-      "Ensalada de txipirones 14€",
-      "Tortilla de bacalao 8€",
-      "Bacalao frito 12€",
-      "Bacalao salsa verde 14€",
-      "Rape al horno S.P.M.",
-      "Cola de merluza S.P.M.",
-      "Txuleta 32€/KG"
+      "Salade de poivrons et de belles 12 €",
+      "Bébé calmars salade 14 €",
+      "Omelette de morue 8 €",
+      "frits cabillaud 12 €",
+      "Cod sauce verte 14 €",
+      "Baudroie cuite S.P.M.",
+      "Merlu Cola S.P.M.",
+      "Txuleta 32 € / KG"
     ],
     "lang":"fr"
   },
   {
-    "title": "Postre",
+    "title": "Desserts",
     "platos": [
-      "Queso, membrillo 6€",
-      "Tarta de queso 5€",
-      "Pudding de manzana 5€"
+      "Fromage, coing 6€",
+      "Cheesecake 5€",
+      "Pouding aux pommes 5€"
      ],
      "lang": "fr"
   }
