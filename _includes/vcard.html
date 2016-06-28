@@ -31,9 +31,9 @@
 
   <div class="horario">
     <h4 class="text-hide">Horario:</h4>
-    <meta itemprop="openingHours" content="Mo-Sa 11:00-14:30">Mon-Sat 11am - 2:30pm<br>
-    <meta itemprop="openingHours" content="Mo-Th 17:00-21:30">Mon-Thu 5pm - 9:30pm<br>
-    <meta itemprop="openingHours" content="Fr-Sa 17:00-22:00">Fri-Sat 5pm - 10:00pm
+    {% for hour in vcard.openingHours %}
+    <meta itemprop="openingHours" content="{{ hour }}">{{ hour }}{% if forloop.last != true %}<br>{% endif %}
+    {% endfor %}
   </div>
 
   <div class="text-hide">
