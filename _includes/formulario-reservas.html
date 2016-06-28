@@ -1,4 +1,4 @@
-<p>Todos los campos son obligatorios.<p>
+<p>{{ site.data.textos[page.lang].campo-obligatorios }}<p>
 <form enctype="multipart/form-data" action="https://paneles.gestiondecuenta.com/comprobar-formulario/" method="POST" id ="formGenGdc" onsubmit="return ValidarCaptcha();">
   <input type="text" name="nombre" placeholder="Nombre y apellidos" required />
   <input type="email" name="email" placeholder="Cuenta de correo" required  />
@@ -12,13 +12,13 @@
   <div id="muestraVerificacion"></div>
   <input type="text" id="entradaVerificacion" name="entradaVerificacion" />
 
-  <input type="hidden" name="redirigir" class="" value="http://www.sarasolasagardotegi.com/gracias.html" />
+  <input type="hidden" name="redirigir" class="" value="http://www.sarasolasagardotegi.com/{% if page.lang != 'es' %}{{ page.lang | append: '/' }}{% endif %}gracias.html" />
   <input type="hidden" name="recipe" class="" value="sarasolasagardotegi@sarasolasagardotegi.com" />
   <input type="hidden" name="asunto" class="" value="Solicitud de reserva desde sarasolasagardotegi.com" />
   <input type="hidden" name="required" class="" value="nombre;email;telefono;comensales;fecha" />
   <input type="hidden" name="dominio" class="" value="sarasolasagardotegi.com" />
-  <input type="hidden" name="idioma" class="" value="es" />
-  <input type="submit" name="enviar" class="" value="Enviar" />
+  <input type="hidden" name="idioma" class="" value="{{ page.lang }}" />
+  <input type="submit" name="enviar" class="" value="{{ site.data.textos[page.lang].enviar }}" />
 </form>
 
 <script type="text/javascript">
@@ -40,4 +40,4 @@
   GenerarCaptcha();
 </script>
 
-<div class="alert alert-danger" role="alert"><p>Su reserva no será válida hasta que nuestro equipo la confirme por email o teléfono en un plazo máximo de 3 días.</p></div>
+<div class="alert alert-danger" role="alert"><p>{{ site.data.textos[page.lang].aviso-reserva }}</p></div>

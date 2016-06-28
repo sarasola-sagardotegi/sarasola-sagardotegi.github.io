@@ -12,7 +12,7 @@
   <i class="fa fa-phone">&nbsp;</i>{{ site.data.textos[page.lang].llamar }} <a tel="{{ site.data.vcard.telephone }}"><span itemprop="telephone"> {{ site.data.vcard.telephone }}</span></a>
   <br>
   {{ site.data.textos[page.lang].o }}<br>
-  <a type="button" class="btn btn-default btn-lg" role="button" href="/reservas">{{ site.data.textos[page.lang].mandar-mail }}</a>
+  <a type="button" class="btn btn-default btn-lg" role="button" href="/{% if page.lang != 'es' %}{{ page.lang | append: '/' }}{% endif %}reservas">{{ site.data.textos[page.lang].mandar-mail }}</a>
   <br>
   <p class="lead">{{ site.data.textos[page.lang].reserva-ya }}</p>
 </div>
