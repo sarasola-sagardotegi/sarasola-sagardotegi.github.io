@@ -70,19 +70,19 @@
      "lang": "eu"
   },
   {
-    "title": "Menú de sidrería",
+    "title": "Cider House Menu",
     "platos": [
-      "Tortilla de bacalao",
-      "Bacalao frito",
+      "Cod Omelette",
+      "Fried Cod",
       "Txuleta GOYA",
-      "Queso y membrillo",
-      "Sidra"
+      "Cheese and Quince",
+      "Cider"
     ],
     "precio": "30€ / PAX",
     "lang":"en"
   },
   {
-    "title": "Carta",
+    "title": "Dinner Menu",
     "platos": [
       "Ensalada de pimientos y bonito 12€",
       "Ensalada de txipirones 14€",
