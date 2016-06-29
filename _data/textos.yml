@@ -6,6 +6,7 @@ es:
   campo-obligatorios: Todos los campos son obligatorios.
   aviso-reserva: Su reserva no será válida hasta que b¡nuestro equipo la confirme por email o teléfono en un plazo máximo de 3 días.
   enviar: enviar
+  siguenos: Síguenos en
 en:
   llamar: Call to
   o: or
@@ -14,6 +15,7 @@ en:
   campo-obligatorios: All fields are required.
   aviso-reserva: Su reserva no será válida hasta que b¡nuestro equipo la confirme por email o teléfono en un plazo máximo de 3 días.
   enviar: submit
+  siguenos: Follow us on
 eu:
   llamar: Deitu
   o: edo
@@ -22,6 +24,7 @@ eu:
   campo-obligatorios: Todos los campos son obligatorios.
   aviso-reserva: Su reserva no será válida hasta que b¡nuestro equipo la confirme por email o teléfono en un plazo máximo de 3 días.
   enviar: enviar
+  siguenos: Síguenos en
 fr:
   llamar: Llama al
   o: o
@@ -30,3 +33,4 @@ fr:
   campo-obligatorios: Todos los campos son obligatorios.
   aviso-reserva: Su reserva no será válida hasta que b¡nuestro equipo la confirme por email o teléfono en un plazo máximo de 3 días.
   enviar: enviar
+  siguenos: Síguenos en

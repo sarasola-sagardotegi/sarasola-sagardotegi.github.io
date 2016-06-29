@@ -71,10 +71,16 @@ section.black {
 
 #menus {
 	background: url(/assets/images/botellas.jpg) no-repeat center fixed;
+  .wrapper {
+	  background: url(/assets/images/lauburu.png) no-repeat 50% 3%;
+  }
 }
 
 #instalaciones {
 	background: url(/assets/images/parrilla.jpg) no-repeat center fixed;
+  .wrapper {
+	  background: url(/assets/images/lauburu.png) no-repeat 50% 3%;
+  }
 }
 #menus,
 #instalaciones {

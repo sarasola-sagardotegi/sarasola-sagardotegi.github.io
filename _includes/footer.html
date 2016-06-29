@@ -1,10 +1,9 @@
 <footer class="site-footer clearfix text-center">
+  <p class="lead">{{ site.data.textos[page.lang].siguenos }}</p>
   <ul class="list-inline list-unstyled social-links">
-    <li><a href="https://www.facebook.com/{{ site.data.rrss.facebook }}"><i class="fa fa-facebook-square"></i></a></li>
-    <li><a href=""><i class="fa fa-google-plus-square"></i></a></li>
-    <li><a href=""><i class="fa fa-twitter-square"></i></a></li>
-    <li><a href=""><i class="fa fa-tumblr-square"></i></a></li>
-    <li><a href=""><i class="fa fa-instagram"></i></a></li>
+    {% for red in site.data.rrss %}
+    <li><a href="{{ red[1] }}"><i class="fa fa-{{ red[0] }}-square"></i></a></li>
+    {% endfor %}
   </ul>
   <ul class="list-inline list-unstyled">
     <li>&copy; 2016 Sarasola Sagardotegi</li>
