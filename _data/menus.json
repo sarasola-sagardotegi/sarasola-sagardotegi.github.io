@@ -21,7 +21,7 @@
       "Bacalao salsa verde 14€",
       "Rape al horno S.P.M.",
       "Cola de merluza S.P.M.",
-      "Txuleta 32€/KG"
+      "Txuleta GOYA 32€/KG"
     ],
     "lang":"es"
   },
@@ -56,7 +56,7 @@
       "Bacalao salsa verde 14€",
       "Rape al horno S.P.M.",
       "Cola de merluza S.P.M.",
-      "Txuleta 32€/KG"
+      "Txuleta GOYA 32€/KG"
     ],
     "lang":"eu"
   },
@@ -91,7 +91,7 @@
       "Bacalao salsa verde 14€",
       "Rape al horno S.P.M.",
       "Cola de merluza S.P.M.",
-      "Txuleta 32€/KG"
+      "Txuleta GOYA 32€/KG"
     ],
     "lang":"en"
   },
@@ -107,9 +107,9 @@
   {
     "title": "Menu Cidreire",
     "platos": [
-      "Omelette de moure",
+      "Omelette de morue",
       "Morue frit",
-      "Txuleta GOYA",
+      "Cotê de boeuf GOYA",
       "Fromage et coings",
       "Cidre"
     ],
@@ -117,7 +117,7 @@
     "lang":"fr"
   },
   {
-    "title": "Carta",
+    "title": "Carte",
     "platos": [
       "Salade de poivrons et de belles 12 €",
       "Bébé calmars salade 14 €",
@@ -126,7 +126,7 @@
       "Morue sauce verte 14 €",
       "Baudroie cuite S.P.M.",
       "Merlu Cola S.P.M.",
-      "Txuleta 32 € / KG"
+      "Cotê de boeuf GOYA 32 € / KG"
     ],
     "lang":"fr"
   },
