@@ -69,7 +69,8 @@
   left: 50%;
   bottom: 0;
   //width: 200px;
-  margin-left: -100px;
+  max-width: 300px;
+  margin-left: -150px;
   z-index: 110;
   .lead {
     margin-top: 1rem;
@@ -77,8 +78,9 @@
 }
 section {
   .cta-reservar {
-    width: 60%;
-    margin: 5rem auto;
+    margin: 0 auto;
+    margin-top: 5rem;
+    max-width: 300px;
     .lead {
       margin-top: 1rem;
     }
