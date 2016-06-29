@@ -4,18 +4,20 @@ es:
   mandar-mail: mándanos un mail
   reserva-ya: ¡Reserva ya!
   campo-obligatorios: Todos los campos son obligatorios.
-  aviso-reserva: Su reserva no será válida hasta que b¡nuestro equipo la confirme por email o teléfono en un plazo máximo de 3 días.
+  aviso-reserva: Su reserva no será válida hasta que nuestro equipo la confirme por email o teléfono en un plazo máximo de 3 días.
   enviar: enviar
   siguenos: Síguenos en
+  aviso-legal: Aviso legal
 en:
   llamar: Call to
   o: or
   mandar-mail: send us an email
   reserva-ya: Book now!
   campo-obligatorios: All fields are required.
-  aviso-reserva: Su reserva no será válida hasta que b¡nuestro equipo la confirme por email o teléfono en un plazo máximo de 3 días.
+  aviso-reserva: Your reservation is not valid until our team confirm it by email or phone within a maximum period of 3 days.
   enviar: submit
   siguenos: Follow us on
+  aviso-legal: Terms of service
 eu:
   llamar: Deitu
   o: edo
@@ -25,12 +27,14 @@ eu:
   aviso-reserva: Su reserva no será válida hasta que b¡nuestro equipo la confirme por email o teléfono en un plazo máximo de 3 días.
   enviar: enviar
   siguenos: Síguenos en
+  aviso-legal: Aviso legal
 fr:
   llamar: Llama al
   o: o
-  mandar-mail: mándanos un mail
-  reserva-ya: ¡Reserva ya!
-  campo-obligatorios: Todos los campos son obligatorios.
-  aviso-reserva: Su reserva no será válida hasta que b¡nuestro equipo la confirme por email o teléfono en un plazo máximo de 3 días.
-  enviar: enviar
-  siguenos: Síguenos en
+  mandar-mail: envoyez-nous un e-mail
+  reserva-ya: Réserver!
+  campo-obligatorios: Tous les champs sont obligatoires.
+  aviso-reserva: Votre réservation est pas valide jusqu'à ce que notre équipe de confirmer par email ou par téléphone dans un délai maximum de 3 jours.
+  enviar: envoyer
+  siguenos: Suivez-nous sur
+  aviso-legal: Mentions légales

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Aviso Legal
-lang: es
+title: Mentions légales
+lang: fr
 tref: aviso-legal
 ---
 

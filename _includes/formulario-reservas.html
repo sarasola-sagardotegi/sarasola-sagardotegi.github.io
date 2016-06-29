@@ -1,4 +1,4 @@
-<p>{{ site.data.textos[page.lang].campo-obligatorios }}<p>
+<p class="alert alert-danger">{{ site.data.textos[page.lang].campo-obligatorios }}<p>
 <form enctype="multipart/form-data" action="https://paneles.gestiondecuenta.com/comprobar-formulario/" method="POST" id ="formGenGdc" onsubmit="return ValidarCaptcha();">
   <input type="text" name="nombre" placeholder="Nombre y apellidos" required />
   <input type="email" name="email" placeholder="Cuenta de correo" required  />
