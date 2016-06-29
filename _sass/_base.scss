@@ -64,7 +64,7 @@
   }
 }
 
-.cta-reservar {
+.front + .cta-reservar {
   position: absolute;
   left: 50%;
   bottom: 0;
@@ -73,6 +73,15 @@
   z-index: 110;
   .lead {
     margin-top: 1rem;
+  }
+}
+section {
+  .cta-reservar {
+    width: 60%;
+    margin: 5rem auto;
+    .lead {
+      margin-top: 1rem;
+    }
   }
 }
 
