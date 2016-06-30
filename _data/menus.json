@@ -37,11 +37,11 @@
   {
     "title": "Menú de sidrería",
     "platos": [
-      "Tortilla de bacalao",
-      "Bacalao frito",
+      "Bakailao tortila",
+      "Bakailao frijitua",
       "Txuleta GOYA",
-      "Queso y membrillo",
-      "Sidra"
+      "Gazta irasagarrarekin",
+      "Sagardoa"
     ],
     "precio": "30€ / PAX",
     "lang":"eu"
@@ -49,13 +49,13 @@
   {
     "title": "Carta",
     "platos": [
-      "Ensalada de pimientos y bonito 12€",
-      "Ensalada de txipirones 14€",
-      "Tortilla de bacalao 8€",
-      "Bacalao frito 12€",
-      "Bacalao salsa verde 14€",
-      "Rape al horno S.P.M.",
-      "Cola de merluza S.P.M.",
+      "Piperrak eta bonitoa entsalada 12€",
+      "Txipiroi-entsalada 14€",
+      "Bakailo tortila 8€",
+      "Bakailo frijitua 12€",
+      "Bakailoa saltsa berdean 14€",
+      "Xapoa labean S.P.M.",
+      "Legatz buztana S.P.M.",
       "Txuleta GOYA 32€/KG"
     ],
     "lang":"eu"
@@ -63,9 +63,9 @@
   {
     "title": "Postre",
     "platos": [
-      "Queso, membrillo 6€",
-      "Tarta de queso 5€",
-      "Pudding de manzana 5€"
+      "Gazta, irasagarra 6€",
+      "Gazta tarta 5€",
+      "Sagar budina 5€"
      ],
      "lang": "eu"
   },
