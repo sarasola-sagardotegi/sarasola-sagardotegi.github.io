@@ -35,7 +35,7 @@
      "lang": "es"
   },
   {
-    "title": "Menú de sidrería",
+    "title": "Sagardotegiko menu",
     "platos": [
       "Bakailao tortila",
       "Bakailao frijitua",
@@ -47,7 +47,7 @@
     "lang":"eu"
   },
   {
-    "title": "Carta",
+    "title": "Karta",
     "platos": [
       "Piperrak eta bonitoa entsalada 12€",
       "Txipiroi-entsalada 14€",
@@ -61,7 +61,7 @@
     "lang":"eu"
   },
   {
-    "title": "Postre",
+    "title": "Mahia-azkena",
     "platos": [
       "Gazta, irasagarra 6€",
       "Gazta tarta 5€",
@@ -72,8 +72,8 @@
   {
     "title": "Cider House Menu",
     "platos": [
-      "Codfish Omelette",
-      "Fried Codfish",
+      "Salt Cod Omelette",
+      "Fried Salt Cod",
       "Txuleta GOYA",
       "Cheese and Quince",
       "Cider"
@@ -87,10 +87,10 @@
       "Ensalada de pimientos y bonito 12€",
       "Ensalada de txipirones 14€",
       "Tortilla de bacalao 8€",
-      "Bacalao frito 12€",
+      "Fried Salt Cod 12€",
       "Bacalao salsa verde 14€",
       "Rape al horno S.P.M.",
-      "Cola de merluza S.P.M.",
+      "Tail of Hake S.P.M.",
       "Txuleta GOYA 32€/KG"
     ],
     "lang":"en"
