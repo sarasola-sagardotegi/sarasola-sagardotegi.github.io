@@ -12,8 +12,8 @@ languages: [es,eu,en,fr]
 # Build settings
 markdown: kramdown
 
+version: 3.0.3
+
 gems:
   - jekyll-seo-tag
   - jekyll-paginate
-
-version: 3.0.3
