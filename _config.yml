@@ -15,3 +15,5 @@ markdown: kramdown
 gems:
   - jekyll-seo-tag
   - jekyll-paginate
+
+version: 3.0.3
