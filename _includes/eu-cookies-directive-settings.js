@@ -12,7 +12,7 @@ $(document).ready(function(){
 	});
   }
   $.cookiesDirective({
-    privacyPolicyUri: '/aviso-legal.html',
+    privacyPolicyUri: '/aviso-legal/',
     explicitConsent: false,
     position : 'bottom',
     //scriptWrapper: cookieScripts, 
