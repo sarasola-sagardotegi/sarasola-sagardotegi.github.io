@@ -99,6 +99,11 @@ section.black {
   }
 }
 
+.row + .reservation-form {
+    background: url(/assets/images/comedor.jpg) center no-repeat;
+    background-size: cover;
+}
+
 .site-footer {
   color:#ddd;
   background-color: rgba($negro, 1);
