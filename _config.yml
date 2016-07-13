@@ -1,7 +1,7 @@
 # Site settings
 title: Sarasola Sagardotegi
 email: info@sarasolasagardotegi.com
-description: "Caserío vasco que elabora y vende sidra propia y sirve platos de gastronomía regional a la carta o en menú."
+description: "Sidrería vasca tradicional con menú de sidrería o a la carta. Chuletas GOYA de calidad superior."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://sarasola-sagardotegi.github.io" # the base hostname & protocol for your site
 logo: "/assets/images/logo.png"
