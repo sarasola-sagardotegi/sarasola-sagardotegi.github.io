@@ -1,0 +1,17 @@
+/* TEAM */
+
+	Web designer: Iñaki García
+	Twitter: @igarbla
+	From:Lasarte-Oria, País Vasco, Spain
+	
+    Photographer: Nerea Urteaga
+	From:San Sebastián, País Vasco, Spain
+
+/* THANKS */
+
+
+/* SITE */
+	Last update:
+	Language: English / Castellano / Française / Euskara
+	Doctype:HTML5
+	IDE: Vim
