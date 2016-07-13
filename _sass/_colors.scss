@@ -102,6 +102,10 @@ section.black {
 .reservation-form-wrapper {
     background: url(/assets/images/comedor.jpg) center no-repeat;
     background-size: cover;
+    
+    .reservation-form {
+        background-color: white;
+    }
 }
 
 .site-footer {
