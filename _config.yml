@@ -1,9 +1,9 @@
 # Site settings
 title: Sarasola Sagardotegi
 email: info@sarasolasagardotegi.com
-description: "Sidrería vasca tradicional con menú de sidrería o a la carta. Chuletas GOYA de calidad superior."
+description: "Sidrería vasca tradicional con menú de sidrería o a la carta. Txletas de calidad superior."
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://sarasola-sagardotegi.github.io" # the base hostname & protocol for your site
+url: "http://www.sarasolasagardotegi.com" # the base hostname & protocol for your site
 logo: "/assets/images/logo.png"
 
 lang: es
