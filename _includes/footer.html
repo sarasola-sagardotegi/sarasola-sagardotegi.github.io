@@ -6,7 +6,7 @@
   <p class="lead">{{ site.data.textos[page.lang].siguenos }}</p>
   <ul class="list-inline list-unstyled social-links">
     {% for red in site.data.rrss %}
-    <li><a href="{{ red[1] }}"><i class="fa fa-{{ red[0] }}-square"></i></a></li>
+    <li><a href="{{ red[1] }}" target="_blank"><i class="fa fa-{{ red[0] }}{% if red[0] != "instagram" %}-square{% endif %}"></i></a></li>
     {% endfor %}
   </ul>
   <ul class="list-inline list-unstyled">
