@@ -1,142 +1,142 @@
 [
-  {
-    "title": "Menú de sidrería",
-    "platos": [
-      "Tortilla de bacalao",
-      "Bacalao frito",
-      "Txuleta GOYA",
-      "Queso y membrillo",
-      "Sidra"
-    ],
-    "precio": "30€ / PAX",
-    "lang":"es"
-  },
-  {
-    "title": "Carta",
-    "platos": [
-      "Ensalada de pimientos y bonito 12€",
-      "Ensalada de txipirones 14€",
-      "Tortilla de bacalao 8€",
-      "Bacalao frito 12€",
-      "Bacalao salsa verde 14€",
-      "Rape al horno S.P.M.",
-      "Cola de merluza S.P.M.",
-      "Txuleta GOYA 32€/KG"
-    ],
-    "lang":"es"
-  },
-  {
-    "title": "Postre",
-    "platos": [
-      "Queso, membrillo 6€",
-      "Tarta de queso 5€",
-      "Pudding de manzana 5€"
-     ],
-     "lang": "es"
-  },
-  {
-    "title": "Sagardotegiko menu",
-    "platos": [
-      "Bakailao tortila",
-      "Bakailao frijitua",
-      "Txuleta GOYA",
-      "Gazta irasagarrarekin",
-      "Sagardoa"
-    ],
-    "precio": "30€ / PAX",
-    "lang":"eu"
-  },
-  {
-    "title": "Karta",
-    "platos": [
-      "Piperrak eta bonitoa entsalada 12€",
-      "Txipiroi-entsalada 14€",
-      "Bakailo tortila 8€",
-      "Bakailo frijitua 12€",
-      "Bakailoa saltsa berdean 14€",
-      "Xapoa labean S.P.M.",
-      "Legatz buztana S.P.M.",
-      "Txuleta GOYA 32€/KG"
-    ],
-    "lang":"eu"
-  },
-  {
-    "title": "Mahia-azkena",
-    "platos": [
-      "Gazta, irasagarra 6€",
-      "Gazta tarta 5€",
-      "Sagar budina 5€"
-     ],
-     "lang": "eu"
-  },
-  {
-    "title": "Cider House Menu",
-    "platos": [
-      "Salt Cod Omelette",
-      "Fried Salt Cod",
-      "Txuleta GOYA",
-      "Cheese and Quince",
-      "Cider"
-    ],
-    "precio": "30€ / PAX",
-    "lang":"en"
-  },
-  {
-    "title": "Dinner Menu",
-    "platos": [
-      "Ensalada de pimientos y bonito 12€",
-      "Ensalada de txipirones 14€",
-      "Salt Cod Omelette 8€",
-      "Fried Salt Cod 12€",
-      "Bacalao salsa verde 14€",
-      "Rape al horno S.P.M.",
-      "Tail of Hake S.P.M.",
-      "Txuleta GOYA 32€/KG"
-    ],
-    "lang":"en"
-  },
-  {
-    "title": "Desserts",
-    "platos": [
-      "Cheese, quince 6€",
-      "Cheesecake 5€",
-      "Apple pudding 5€"
-     ],
-     "lang": "en"
-  },
-  {
-    "title": "Menu Cidreire",
-    "platos": [
-      "Omelette de morue",
-      "Morue frit",
-      "Cotê de boeuf GOYA",
-      "Fromage et coings",
-      "Cidre"
-    ],
-    "precio": "30€ / PAX",
-    "lang":"fr"
-  },
-  {
-    "title": "Carte",
-    "platos": [
-      "Salade de poivrons et du thon 12 €",
-      "Salade de seiches 14 €",
-      "Omelette de morue 8 €",
-      "Morue frit 12 €",
-      "Morue sauce verte 14 €",
-      "Lotte au four S.P.M.",
-      "Queue de Merlu S.P.M.",
-      "Cotê de boeuf GOYA 32 € / KG"
-    ],
-    "lang":"fr"
-  },
-  {
-    "title": "Desserts",
-    "platos": [
-      "Fromage, coing 6€",
-      "Tarte au fromage 5€",
-      "Pudding aux pommes 5€"
-     ],
-     "lang": "fr"
-  }
+	{
+		"title": "Menú de sidrería",
+		"platos": [
+			"Tortilla de bacalao",
+			"Bacalao frito",
+			"Txuleta",
+			"Queso y membrillo",
+			"Sidra"
+		],
+		"precio": "30€ / PAX",
+		"lang": "es"
+	},
+	{
+		"title": "Carta",
+		"platos": [
+			"Ensalada de pimientos y bonito 12€",
+			"Ensalada de txipirones 14€",
+			"Tortilla de bacalao 8€",
+			"Bacalao frito 12€",
+			"Bacalao salsa verde 14€",
+			"Rape al horno S.P.M.",
+			"Cola de merluza S.P.M.",
+			"Txuleta 32€/KG"
+		],
+		"lang": "es"
+	},
+	{
+		"title": "Postre",
+		"platos": [
+			"Queso, membrillo 6€",
+			"Tarta de queso 5€",
+			"Pudding de manzana 5€"
+		],
+		"lang": "es"
+	},
+	{
+		"title": "Sagardotegiko menu",
+		"platos": [
+			"Bakailao tortila",
+			"Bakailao frijitua",
+			"Txuleta",
+			"Gazta irasagarrarekin",
+			"Sagardoa"
+		],
+		"precio": "30€ / PAX",
+		"lang": "eu"
+	},
+	{
+		"title": "Karta",
+		"platos": [
+			"Piperrak eta bonitoa entsalada 12€",
+			"Txipiroi-entsalada 14€",
+			"Bakailo tortila 8€",
+			"Bakailo frijitua 12€",
+			"Bakailoa saltsa berdean 14€",
+			"Xapoa labean S.P.M.",
+			"Legatz buztana S.P.M.",
+			"Txuleta GOYA 32€/KG"
+		],
+		"lang": "eu"
+	},
+	{
+		"title": "Mahia-azkena",
+		"platos": [
+			"Gazta, irasagarra 6€",
+			"Gazta tarta 5€",
+			"Sagar budina 5€"
+		],
+		"lang": "eu"
+	},
+	{
+		"title": "Cider House Menu",
+		"platos": [
+			"Salt Cod Omelette",
+			"Fried Salt Cod",
+			"Txuleta GOYA",
+			"Cheese and Quince",
+			"Cider"
+		],
+		"precio": "30€ / PAX",
+		"lang": "en"
+	},
+	{
+		"title": "Dinner Menu",
+		"platos": [
+			"Ensalada de pimientos y bonito 12€",
+			"Ensalada de txipirones 14€",
+			"Salt Cod Omelette 8€",
+			"Fried Salt Cod 12€",
+			"Bacalao salsa verde 14€",
+			"Rape al horno S.P.M.",
+			"Tail of Hake S.P.M.",
+			"Txuleta GOYA 32€/KG"
+		],
+		"lang": "en"
+	},
+	{
+		"title": "Desserts",
+		"platos": [
+			"Cheese, quince 6€",
+			"Cheesecake 5€",
+			"Apple pudding 5€"
+		],
+		"lang": "en"
+	},
+	{
+		"title": "Menu Cidreire",
+		"platos": [
+			"Omelette de morue",
+			"Morue frit",
+			"Cotê de boeuf GOYA",
+			"Fromage et coings",
+			"Cidre"
+		],
+		"precio": "30€ / PAX",
+		"lang": "fr"
+	},
+	{
+		"title": "Carte",
+		"platos": [
+			"Salade de poivrons et du thon 12 €",
+			"Salade de seiches 14 €",
+			"Omelette de morue 8 €",
+			"Morue frit 12 €",
+			"Morue sauce verte 14 €",
+			"Lotte au four S.P.M.",
+			"Queue de Merlu S.P.M.",
+			"Cotê de boeuf GOYA 32 € / KG"
+		],
+		"lang": "fr"
+	},
+	{
+		"title": "Desserts",
+		"platos": [
+			"Fromage, coing 6€",
+			"Tarte au fromage 5€",
+			"Pudding aux pommes 5€"
+		],
+		"lang": "fr"
+	}
 ]
