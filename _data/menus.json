@@ -35,12 +35,12 @@
 		"lang": "es"
 	},
 	{
-		"title": "Sagardotegiko menu",
+		"title": "Sagardotegiko menua",
 		"platos": [
-			"Bakailao tortila",
+			"Bakailao-tortilla",
 			"Bakailao frijitua",
 			"Txuleta",
-			"Gazta irasagarrarekin",
+			"Gazta eta irasagarra",
 			"Sagardoa"
 		],
 		"precio": "30€ / PAX",
@@ -49,68 +49,68 @@
 	{
 		"title": "Karta",
 		"platos": [
-			"Piperrak eta bonitoa entsalada 12€",
-			"Txipiroi-entsalada 14€",
-			"Bakailo tortila 8€",
+			"Piper eta hegaluze entsalada 12€",
+			"Txipiroi entsalada 14€",
+			"Bakailo-tortilla 8€",
 			"Bakailo frijitua 12€",
 			"Bakailoa saltsa berdean 14€",
-			"Xapoa labean S.P.M.",
-			"Legatz buztana S.P.M.",
+			"Zapoa labean (merkatuko prezioaren arabera)",
+			"Legatz-isatza (merkatuko prezioaren arabera)",
 			"Txuleta 32€/KG"
 		],
 		"lang": "eu"
 	},
 	{
-		"title": "Mahia-azkena",
+		"title": "Azkenburukoa",
 		"platos": [
 			"Gazta, irasagarra 6€",
-			"Gazta tarta 5€",
-			"Sagar budina 5€"
+			"Gazta-tarta 5€",
+			"Sagar-budina 5€"
 		],
 		"lang": "eu"
 	},
 	{
-		"title": "Cider House Menu",
+		"title": "Cider Bar Menu",
 		"platos": [
-			"Salt Cod Omelette",
-			"Fried Salt Cod",
-			"Txuleta",
-			"Cheese and Quince",
+			"Cod omelette",
+			"Fried cod",
+			"Txuleta (rib eye steak)",
+			"Cheese and quince jelly",
 			"Cider"
 		],
 		"precio": "30€ / PAX",
 		"lang": "en"
 	},
 	{
-		"title": "Dinner Menu",
+		"title": "Menu",
 		"platos": [
-			"Ensalada de pimientos y bonito 12€",
-			"Ensalada de txipirones 14€",
-			"Salt Cod Omelette 8€",
-			"Fried Salt Cod 12€",
-			"Bacalao salsa verde 14€",
-			"Rape al horno S.P.M.",
-			"Tail of Hake S.P.M.",
-			"Txuleta 32€/KG"
+			"Pepper and northern albacore salad 12€",
+			"Baby squid salad 14€",
+			"Cod omelette 8€",
+			"Fried cod 12€",
+			"Cod with parsley sauce 14€",
+			"Baked monkfish (depending on market price)",
+			"Hake tail (depending on market price)",
+			"Txuleta (rib eye steak) 32€/KG"
 		],
 		"lang": "en"
 	},
 	{
-		"title": "Desserts",
+		"title": "Dessert",
 		"platos": [
-			"Cheese, quince 6€",
+			"Cheese, quince jelly 6€",
 			"Cheesecake 5€",
 			"Apple pudding 5€"
 		],
 		"lang": "en"
 	},
 	{
-		"title": "Menu Cidreire",
+		"title": "Menu de la cidreire",
 		"platos": [
 			"Omelette de morue",
-			"Morue frit",
-			"Cotê de boeuf",
-			"Fromage et coings",
+			"Morue frite",
+			"Txuleta (Côte de boeuf)",
+			"Fromage et pâte de coing",
 			"Cidre"
 		],
 		"precio": "30€ / PAX",
@@ -119,21 +119,21 @@
 	{
 		"title": "Carte",
 		"platos": [
-			"Salade de poivrons et du thon 12 €",
-			"Salade de seiches 14 €",
+			"Salade de poivrons et thon 12 €",
+			"Salade de txipirones (petits calmars) 14 €",
 			"Omelette de morue 8 €",
-			"Morue frit 12 €",
+			"Morue frite 12 €",
 			"Morue sauce verte 14 €",
-			"Lotte au four S.P.M.",
-			"Queue de Merlu S.P.M.",
-			"Cotê de boeuf 32 € / KG"
+			"Lotte au four (en fonctiondu prix du marché)",
+			"Queue de colin (en fonction du prix du marché)",
+			"Txuleta (Côte de boeuf) 32 € / KG"
 		],
 		"lang": "fr"
 	},
 	{
 		"title": "Desserts",
 		"platos": [
-			"Fromage, coing 6€",
+			"Fromage, pâte de coing 6€",
 			"Tarte au fromage 5€",
 			"Pudding aux pommes 5€"
 		],

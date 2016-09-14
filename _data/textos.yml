@@ -9,7 +9,7 @@ es:
   siguenos: Síguenos en
   aviso-legal: Aviso legal
 en:
-  llamar: Call to
+  llamar: Call
   o: or
   mandar-mail: send us an email
   reserva-ya: Book now!
@@ -20,19 +20,20 @@ en:
   aviso-legal: Terms of service
 eu:
   llamar: Deitu
+  llamar2: telefono-zenbakira
   o: edo
-  mandar-mail: mándanos un mail
-  reserva-ya: ¡Reserva ya!
-  campo-obligatorios: Todos los campos son obligatorios.
-  aviso-reserva: Su reserva no será válida hasta que b¡nuestro equipo la confirme por email o teléfono en un plazo máximo de 3 días.
-  enviar: enviar
-  siguenos: Síguenos en
-  aviso-legal: Aviso legal
+  mandar-mail: bidal iezaguzu email bat
+  reserva-ya: Erreserbatu!
+  campo-obligatorios: Eremu guztiak derrigorrezkoak dira
+  aviso-reserva: Zure erreserba ez da baliozko gure taldeak baieztatu arte email edo telefono bidez 3 eguneko epean.
+  enviar: bidali
+  siguenos: Jarraitu gurekin
+  aviso-legal: Lege oharra
 fr:
-  llamar: Appelez
+  llamar: Composez le
   o: ou
-  mandar-mail: envoyez-nous un e-mail
-  reserva-ya: Réserver!
+  mandar-mail: envoyez-nous un mail
+  reserva-ya: Réserver maintenant!
   campo-obligatorios: Tous les champs sont obligatoires.
   aviso-reserva: Votre réservation ne sera pas validée tant qu'elle n'aura pas été confirmée par e-mail ou téléphone par notre équipe dans un délai maximum de 3 jours.
   enviar: envoyer
