@@ -5,7 +5,7 @@
 <script type="text/javascript">
   var foursquare = {};
   $(document).ready(function() {
-    $.getJSON('https://api.foursquare.com/v2/venues/{{ site.foursquare.venue_id}}/tips?oauth_token={{ site.foursquare.access_token }}&v={{ v }}',
+    $.getJSON('https://api.foursquare.com/v2/venues/{{ site.foursquare.venue_id}}/tips?oauth_token={{ site.foursquare.access_token }}&v={{ v }}&limit=4',
               function(data) {
                 foursquare = data.response;
                 num = foursquare.tips.count;
