@@ -10,7 +10,8 @@
     {% endfor %}
   </ul>
   <ul class="list-inline list-unstyled">
-    <li>&copy; 2016 Sarasola Sagardotegi</li>
+    {% assign year = site.time | split: ' ' | first | split: '-' | first %}
+    <li>&copy; 2016{% if year != '2016' %}-{{ year }}{% endif %} Sarasola Sagardotegi</li>
     <li><a href="/{% if page.lang != site.lang %}{{ page.lang | append: '/' }}{% endif %}aviso-legal">{{ site.data.textos[page.lang].aviso-legal }}</a></li>
   </ul>
 </footer>
