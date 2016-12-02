@@ -59,9 +59,16 @@ body {
     color: white;
   }
 }
-
-section.dark {
+section.white {
 	color: #ddd;
+	background-color: rgba(white, 1);
+}
+section.light {
+	color: #333;
+	background-color: rgba(white, 0.8);
+}
+section.dark {
+	color: #333;
 	background-color: rgba($negro, 0.8);
 }
 section.black {
@@ -102,7 +109,7 @@ section.black {
 .reservation-form-wrapper {
     background: url(/assets/images/comedor.jpg) center no-repeat;
     background-size: cover;
-    
+
     .reservation-form {
         background-color: rgba(white, 0.8);
     }

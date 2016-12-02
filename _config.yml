@@ -17,3 +17,11 @@ gems:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-sitemap
+
+instagram:
+  user_id: 3488511292
+  app_id: b2564c2275fc4843a9e17f4f88a63a0c
+  access_token: 3488511292.b2564c2.3a46b3405900454a9648b47a4dfee89b
+foursquare:
+  venue_id: 4e3c478dfa76455375a83d95
+  access_token: VZOV5T2GHNVCJZU1O1REF54MPWELPGBWKQRWY11MV44Z54CW

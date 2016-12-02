@@ -1,0 +1,24 @@
+<div id="fsfeed">
+  <h2 class="text-center"><i class="fa fa-foursquare h2">&nbsp;</i>Foursquare</h2>
+</div>
+{% assign v = site.time | split: ' ' | first | replace: '-', '' %}
+<script type="text/javascript">
+  var foursquare = {};
+  $(document).ready(function() {
+    $.getJSON('https://api.foursquare.com/v2/venues/{{ site.foursquare.venue_id}}/tips?oauth_token={{ site.foursquare.access_token }}&v={{ v }}',
+              function(data) {
+                foursquare = data.response;
+                num = foursquare.tips.count;
+                if (num) {
+                  var items='';
+                  for (var i=0; i<num; i++) {
+                    user = foursquare.tips.items[i].user.firstName + ' ' + foursquare.tips.items[i].user.lastName;
+                    photo = foursquare.tips.items[i].user.photo.prefix + '25x25' + foursquare.tips.items[i].user.photo.suffix;
+                    items += '<li><blockquote><p>'+foursquare.tips.items[0].text +'</p>';
+                    items += '<footer><img src="'+photo+'"> '+user+'</footer></blockquote></li>';
+                  }
+                  $('#fsfeed').append('<ul class="list-unstyled">' + items + '</ul>');
+                }
+               });
+  });
+</script>

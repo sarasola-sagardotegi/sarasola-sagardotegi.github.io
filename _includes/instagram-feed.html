@@ -1,0 +1,13 @@
+<div id="instafeed">
+  <h2 class="text-center"><i class="fa fa-instagram h2">&nbsp;</i>Instagram</h2>
+</div>
+<script type="text/javascript">
+  var feed = new Instafeed({
+    get: 'user',
+    userId: '{{ site.instagram['user_id'] }}',
+    clientId: '{{ site.instagram['app_id'] }}',
+    accessToken: '{{ site.instagram['access_token'] }}',
+    limit: 20
+  });
+  feed.run();
+</script>

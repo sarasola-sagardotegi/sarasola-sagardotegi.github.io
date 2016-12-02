@@ -22,7 +22,7 @@
     @media (min-width: 480px) {
       height: 150px;
     }
-  } 
+  }
   &.front {
     position: absolute;
     top: 0;
@@ -104,6 +104,12 @@ body:not(.front) .content-wrapper {
     padding: 8.75rem 2rem;
   }
 }
+#social {
+  div.wrapper {
+    padding: 4rem 2rem;
+  }
+}
+
 #contacto {
   div.wrapper {
     padding-left: 0;
