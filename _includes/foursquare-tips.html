@@ -11,7 +11,7 @@
                 num = foursquare.tips.items.length;
                 if (num) {
                   var items='';
-                  for (var i=num-1; i>=0; i--) {
+                  for (var i=0; i<num; i++) {
                     user = foursquare.tips.items[i].user.firstName + ' ' + foursquare.tips.items[i].user.lastName;
                     photo = foursquare.tips.items[i].user.photo.prefix + '25x25' + foursquare.tips.items[i].user.photo.suffix;
                     items += '<li><blockquote><p>'+foursquare.tips.items[i].text +'</p>';
