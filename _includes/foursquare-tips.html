@@ -5,16 +5,16 @@
 <script type="text/javascript">
   var foursquare = {};
   $(document).ready(function() {
-    $.getJSON('https://api.foursquare.com/v2/venues/{{ site.foursquare.venue_id}}/tips?oauth_token={{ site.foursquare.access_token }}&v={{ v }}&limit=4',
+    $.getJSON('https://api.foursquare.com/v2/venues/{{ site.foursquare.venue_id}}/tips?oauth_token={{ site.foursquare.access_token }}&v={{ v }}&sort=recent&limit=4',
               function(data) {
                 foursquare = data.response;
-                num = foursquare.tips.count;
+                num = foursquare.tips.items.length;
                 if (num) {
                   var items='';
-                  for (var i=0; i<num; i++) {
+                  for (var i=num-1; i>=0; i--) {
                     user = foursquare.tips.items[i].user.firstName + ' ' + foursquare.tips.items[i].user.lastName;
                     photo = foursquare.tips.items[i].user.photo.prefix + '25x25' + foursquare.tips.items[i].user.photo.suffix;
-                    items += '<li><blockquote><p>'+foursquare.tips.items[0].text +'</p>';
+                    items += '<li><blockquote><p>'+foursquare.tips.items[i].text +'</p>';
                     items += '<footer><img src="'+photo+'"> '+user+'</footer></blockquote></li>';
                   }
                   $('#fsfeed').append('<ul class="list-unstyled">' + items + '</ul>');
