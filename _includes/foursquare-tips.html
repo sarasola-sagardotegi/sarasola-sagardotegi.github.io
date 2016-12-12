@@ -8,13 +8,19 @@
     $.getJSON('https://api.foursquare.com/v2/venues/{{ site.foursquare.venue_id}}/tips?oauth_token={{ site.foursquare.access_token }}&v={{ v }}&sort=recent&limit=4',
               function(data) {
                 foursquare = data.response;
-                num = foursquare.tips.items.length;
+                tips = foursquare.tips.items;
+                num = tips.length;
+                // Sort reverse the array due to an FF error
+                tips.sort(function(a, b) {
+                  return (parseFloat(a.id) - parseFloat(b.id)) * - 1;
+                });
+
                 if (num) {
                   var items='';
                   for (var i=0; i<num; i++) {
-                    user = foursquare.tips.items[i].user.firstName + ' ' + foursquare.tips.items[i].user.lastName;
-                    photo = foursquare.tips.items[i].user.photo.prefix + '25x25' + foursquare.tips.items[i].user.photo.suffix;
-                    items += '<li><blockquote><p>'+foursquare.tips.items[i].text +'</p>';
+                    user = tips[i].user.firstName + ' ' + tips[i].user.lastName;
+                    photo = tips[i].user.photo.prefix + '25x25' + tips[i].user.photo.suffix;
+                    items += '<li><blockquote><p>'+tips[i].text +'</p>';
                     items += '<footer><img src="'+photo+'"> '+user+'</footer></blockquote></li>';
                   }
                   $('#fsfeed').append('<ul class="list-unstyled">' + items + '</ul>');
