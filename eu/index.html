@@ -10,6 +10,8 @@ tref: index
   {% for menu in menus %}
     {% include menu.html item=menu %}
   {% endfor %}
+  {% include servicio-autobuses.html %}
+  {% include reservar.html %}
   </div>
 </section>
 
@@ -22,7 +24,6 @@ tref: index
       <p>Gure haragi guztiak goi kalitatekoak dira.</>
       <p>Primerako menu gastronomikoak. Gainera, toki paregabea da taldean biltzeko ospakizun garrantzitsuenetan. Zeren zain zaude erreserbatzeko?</p>
     </div>
-    {% include servicio-autobuses.html %}
     {% include reservar.html %}
   </div>
 </section>

@@ -10,6 +10,8 @@ tref: index
   {% for menu in menus %}
     {% include menu.html item=menu %}
   {% endfor %}
+  {% include servicio-autobuses.html %}
+  {% include reservar.html %}
   </div>
 </section>
 
@@ -22,7 +24,6 @@ tref: index
       <p>Toutes nos viandes sont d’excellente qualité.</p>
       <p>Des menus gastronomiques de grande qualité. C’est aussi l’endroit idéal pour l’organisation de grandes occasions de groupes plus grands. N’attendez plus pour réserver !</p>
     </div>
-    {% include servicio-autobuses.html %}
     {% include reservar.html %}
   </div>
 </section>
