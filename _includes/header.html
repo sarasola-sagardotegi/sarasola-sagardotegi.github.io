@@ -7,8 +7,8 @@
     <a class="site-title" href="{{ site.baseurl }}/{% if page.lang != site.lang %}{{ page.lang | append: '/' }}{% endif %}">{{ site.title }}</a>
     <img src="/assets/images/logo.png" alt="{{ site.title }}" class="img-responsive">
   </h1>
+  <div id="scroll"><a href="#menus"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a></div>
 </header>
-{% include reservar.html %}
 
 {% else %}
 

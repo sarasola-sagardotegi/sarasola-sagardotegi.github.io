@@ -8,6 +8,19 @@ es:
   enviar: enviar
   siguenos: Síguenos en
   aviso-legal: Aviso legal
+  autobus-gratuito: Servicio de autobús gratuito
+  autobus-fecha: Del 1 de febrero al 29 de abril
+  autobus-ida: ida
+  autobus-vuelta: vuelta
+  autobus-parada: Parada de autobús en calle Pelotari, Astigarraga
+  lunes: lunes
+  martes: martes
+  miercoles: miércoles
+  jueves: jueves
+  viernes: viernes
+  sabado: sábado
+  domingo: domingo
+  mediodia: mediodía
 en:
   llamar: Call
   o: or
@@ -18,6 +31,19 @@ en:
   enviar: submit
   siguenos: Follow us on
   aviso-legal: Terms of service
+  autobus-gratuito: Free bus service
+  autobus-fecha: From February 1 to April 29
+  autobus-ida: going
+  autobus-vuelta: return
+  autobus-parada: Bus stop in Pelotari street, Astigarraga
+  lunes: monday
+  martes: tuesday
+  miercoles: wednesday
+  jueves: thursday
+  viernes: friday
+  sabado: saturday
+  domingo: sunday
+  mediodia: midday
 eu:
   llamar: Deitu
   llamar2: telefono-zenbakira
@@ -29,6 +55,19 @@ eu:
   enviar: bidali
   siguenos: Jarraitu gurekin
   aviso-legal: Lege oharra
+  autobus-gratuito: Doako autobus zerbitzua
+  autobus-fecha: Otsailaren 1etik apirilaren 29ra
+  autobus-ida: joan
+  autobus-vuelta: etorri
+  autobus-parada: Pilotari Kaleko autobus geltokian
+  lunes: astelehena
+  martes: asteartea
+  miercoles: asteazkena
+  jueves: osteguna
+  viernes: ostirala
+  sabado: larunbata
+  domingo: igandea
+  mediodia: eguerdian
 fr:
   llamar: Composez le
   o: ou
@@ -39,3 +78,16 @@ fr:
   enviar: envoyer
   siguenos: Suivez-nous sur
   aviso-legal: Mentions légales
+  autobus-gratuito: Service de bus gratuit
+  autobus-fecha: A partir du 1er Février à Avril 29
+  autobus-ida: aller
+  autobus-vuelta: retour
+  autobus-parada: Arrêt du bus, rue Pelotari, Astigarraga
+  lunes: lundi
+  martes: mardi
+  miercoles: mercredi
+  jueves: jeudi
+  viernes: vendredi
+  sabado: samedi
+  domingo: dimanche
+  mediodia: midi
