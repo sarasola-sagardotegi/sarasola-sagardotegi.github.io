@@ -12,7 +12,7 @@ es:
   autobus-fecha: Del 1 de febrero al 29 de abril
   autobus-ida: ida
   autobus-vuelta: vuelta
-  autobus-parada: Parada de autobús en calle Pelotari, Astigarraga
+  autobus-parada: Parada de autobús en Donostia Ibilbidea, Astigarraga
   lunes: lunes
   martes: martes
   miercoles: miércoles
@@ -35,7 +35,7 @@ en:
   autobus-fecha: From February 1 to April 29
   autobus-ida: going
   autobus-vuelta: return
-  autobus-parada: Bus stop in Pelotari street, Astigarraga
+  autobus-parada: Bus stop in Donostia Ibilbidea, Astigarraga
   lunes: monday
   martes: tuesday
   miercoles: wednesday
@@ -59,7 +59,7 @@ eu:
   autobus-fecha: Otsailaren 1etik apirilaren 29ra
   autobus-ida: joan
   autobus-vuelta: etorri
-  autobus-parada: Pilotari Kaleko autobus geltokian
+  autobus-parada: Donostia Ibilbidea autobus geltokian
   lunes: astelehena
   martes: asteartea
   miercoles: asteazkena
@@ -82,7 +82,7 @@ fr:
   autobus-fecha: A partir du 1er Février à Avril 29
   autobus-ida: aller
   autobus-vuelta: retour
-  autobus-parada: Arrêt du bus, rue Pelotari, Astigarraga
+  autobus-parada: Arrêt du bus, Donostia Ibilbidea, Astigarraga
   lunes: lundi
   martes: mardi
   miercoles: mercredi
