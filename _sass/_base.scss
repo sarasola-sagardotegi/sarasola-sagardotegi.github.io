@@ -35,6 +35,7 @@
       height: 100%;
       vertical-align: middle;
       margin-top: 0.25em;
+      margin-bottom: 0;
     }
     h1 {
       height: 100%;
@@ -157,10 +158,10 @@ input {
 // Scrolling
 #scroll {
   position: relative;
-  bottom: 10%;
+  bottom: 2.8em;
   text-align: center;
   font-size: 2.5em;
-  a {
+  p, a {
     color: white;
   }
 }
