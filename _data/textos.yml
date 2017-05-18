@@ -3,6 +3,7 @@ es:
   o: o
   mandar-mail: mándanos un mail
   reserva-ya: ¡Reserva ya!
+  abrimos-todo-el-ano: Abrimos todo el año
   campo-obligatorios: Todos los campos son obligatorios.
   aviso-reserva: Su reserva no será válida hasta que nuestro equipo la confirme por email o teléfono en un plazo máximo de 3 días.
   enviar: enviar
@@ -25,6 +26,7 @@ en:
   llamar: Call
   o: or
   mandar-mail: send us an email
+  abrimos-todo-el-ano: Open all year
   reserva-ya: Book now!
   campo-obligatorios: All fields are required.
   aviso-reserva: Your reservation is not valid until our team confirm it by email or phone within a maximum period of 3 days.
@@ -49,6 +51,7 @@ eu:
   llamar2: telefono-zenbakira
   o: edo
   mandar-mail: bidal iezaguzu email bat
+  abrimos-todo-el-ano: Urte guztian zabalik
   reserva-ya: Erreserbatu!
   campo-obligatorios: Eremu guztiak derrigorrezkoak dira
   aviso-reserva: Zure erreserba ez da baliozko gure taldeak baieztatu arte email edo telefono bidez 3 eguneko epean.
@@ -72,6 +75,7 @@ fr:
   llamar: Composez le
   o: ou
   mandar-mail: envoyez-nous un mail
+  abrimos-todo-el-ano: Nous ouvrons toute l'année
   reserva-ya: Réserver maintenant!
   campo-obligatorios: Tous les champs sont obligatoires.
   aviso-reserva: Votre réservation ne sera pas validée tant qu'elle n'aura pas été confirmée par e-mail ou téléphone par notre équipe dans un délai maximum de 3 jours.
