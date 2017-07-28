@@ -4,6 +4,8 @@ es:
   mandar-mail: mándanos un mail
   reserva-ya: ¡Reserva ya!
   abrimos-todo-el-ano: Abrimos todo el año
+  cerrado-por-vacaciones: Cerrado por vacaciones
+  periodo-vacaciones: del 29 de julio al 14 de agosto
   campo-obligatorios: Todos los campos son obligatorios.
   aviso-reserva: Su reserva no será válida hasta que nuestro equipo la confirme por email o teléfono en un plazo máximo de 3 días.
   enviar: enviar
@@ -27,6 +29,8 @@ en:
   o: or
   mandar-mail: send us an email
   abrimos-todo-el-ano: Open all year
+  cerrado-por-vacaciones: Closed for vacations
+  periodo-vacaciones: From July 29 to August 14
   reserva-ya: Book now!
   campo-obligatorios: All fields are required.
   aviso-reserva: Your reservation is not valid until our team confirm it by email or phone within a maximum period of 3 days.
@@ -52,6 +56,8 @@ eu:
   o: edo
   mandar-mail: bidal iezaguzu email bat
   abrimos-todo-el-ano: Urte guztian zabalik
+  cerrado-por-vacaciones: Oporrak
+  periodo-vacaciones: Uztailaren 29tik abuztuaren 14ra
   reserva-ya: Erreserbatu!
   campo-obligatorios: Eremu guztiak derrigorrezkoak dira
   aviso-reserva: Zure erreserba ez da baliozko gure taldeak baieztatu arte email edo telefono bidez 3 eguneko epean.
@@ -76,6 +82,8 @@ fr:
   o: ou
   mandar-mail: envoyez-nous un mail
   abrimos-todo-el-ano: Nous ouvrons toute l'année
+  cerrado-por-vacaciones: Fermé pour vacances
+  periodo-vacaciones: 29 juillet à 14 Août
   reserva-ya: Réserver maintenant!
   campo-obligatorios: Tous les champs sont obligatoires.
   aviso-reserva: Votre réservation ne sera pas validée tant qu'elle n'aura pas été confirmée par e-mail ou téléphone par notre équipe dans un délai maximum de 3 jours.
